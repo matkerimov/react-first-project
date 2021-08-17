@@ -1,4 +1,5 @@
 import React from "react";
+import MainCard from "./Main-card";
 
 function Main(){
     return (
@@ -11,6 +12,7 @@ function Main(){
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
+            <MainCard />
         </>
     )
 }

@@ -33,8 +33,22 @@ li{
 }
 /*--------------------------main--------------------------*/
 .main-info{
-    
+    text-align: center;
 }
+.main-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin: 39px 0 17px 0 ;
+}
+.main-desk{
+    font-size: 18px;
+    line-height: 21px;
+    color: #454545;
+    width: 630px;
+}
+.
 
 /*--------------------------footer--------------------------*/
 .footer{
