@@ -8,8 +8,11 @@ a{
 }
 li{
     list-style: none;
-
 }
+h1, h2, h3, h4, h5, h6{
+}
+
+
 .header {
     background: #FF3E6C;
     padding: 22px 0;
@@ -32,6 +35,10 @@ li{
     margin-left: 30px;
 }
 /*--------------------------main--------------------------*/
+.main{
+    background: #EFEFEF;
+    padding: 39px 0 150px;
+}
 .main-info{
     text-align: center;
 }
@@ -40,16 +47,33 @@ li{
     font-size: 36px;
     line-height: 42px;
     color: #000000;
-    margin: 39px 0 17px 0 ;
+    margin: 0 0 17px 0 ;
 }
 .main-desk{
     font-size: 18px;
     line-height: 21px;
     color: #454545;
-    width: 630px;
+    margin-bottom: 36px;
 }
-.
-
+.card-box{
+    width: 275px;
+    height: 173px;
+    background: #FFFFFF;
+    border: 1px solid #FF3E6C;
+    box-sizing: border-box;
+    padding: 0 28px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF3E6C;
+}
+.card-desk{
+    font-size: 16px;
+    line-height: 19px;
+    color: #454545;
+}
 /*--------------------------footer--------------------------*/
 .footer{
     background: #FF3E6C;
@@ -71,4 +95,8 @@ li{
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
+    margin: 13px 0 17px;
+}
+.card-item{
+    text-align: right;
 }
